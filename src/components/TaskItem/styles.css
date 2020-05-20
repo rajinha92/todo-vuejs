@@ -1,0 +1,31 @@
+.task-holder {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 4px;
+  box-shadow: 0 2px 1px -1px rgba(250, 250, 250, 0.3);
+}
+
+.task-description,
+.edit-box {
+  flex: 1;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.task-action {
+  margin-left: 12px;
+  right: 0;
+}
+.task-action i {
+  margin-left: 12px;
+}
+
+.edit-box input {
+  width: 100%;
+  height: 32px !important;
+}

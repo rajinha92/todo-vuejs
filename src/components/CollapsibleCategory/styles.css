@@ -1,0 +1,26 @@
+.collapsible {
+  border: none !important;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.13) !important;
+}
+.collapsible-header {
+  color: #2f3640;
+  display: flex;
+  justify-content: space-between;
+}
+.collapsible-header i.fas {
+  font-size: 14px !important;
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  align-self: center;
+  transition: transform ease 0.6s;
+}
+
+li.active .collapsible-header i {
+  transform: rotate(90deg);
+}
+
+.collapsible-body {
+  padding: 8px !important;
+  border-bottom: none !important;
+}

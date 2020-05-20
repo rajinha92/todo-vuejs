@@ -1,0 +1,36 @@
+#app-container {
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+  color: #fafafa;
+  background-color: #40739e;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.3);
+}
+
+.info-message {
+  color: "#fafafa";
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+h1.title {
+  color: "#fafafa";
+  margin: 12px 0;
+  font-size: 28px;
+}
+
+a {
+  color: #fafafa !important;
+}
+
+.content {
+  margin-top: 15px;
+  flex: 1;
+  overflow-y: auto;
+}
