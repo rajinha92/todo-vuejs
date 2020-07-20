@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "animate.css": "^4.1.0",
     "core-js": "^3.6.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "materialize-css": "^1.0.0-rc.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.6",
